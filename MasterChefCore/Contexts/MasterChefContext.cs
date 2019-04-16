@@ -13,5 +13,6 @@ namespace MasterChefCore.Contexts
         public DbSet<Tag> Tags { get; set; }
         public DbSet<Ingrediente> Ingredientes { get; set; }
         public DbSet<Receita> Receitas { get; set; }
+        public DbSet<IngredienteDaReceita> IngredientesDaReceita { get; set; }
     }
 }
