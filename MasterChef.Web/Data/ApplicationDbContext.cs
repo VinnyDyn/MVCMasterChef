@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using MasterChefCore.Models;
 
 namespace MasterChef.Web.Data
 {
@@ -12,5 +13,6 @@ namespace MasterChef.Web.Data
             : base(options)
         {
         }
+        public DbSet<MasterChefCore.Models.Ingrediente> Ingrediente { get; set; }
     }
 }

@@ -29,3 +29,12 @@ C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChef.Web\obj\
 C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChef.Web\obj\Debug\netcoreapp2.2\MasterChef.Web.dll
 C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChef.Web\obj\Debug\netcoreapp2.2\MasterChef.Web.pdb
 C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChef.Web\obj\Debug\netcoreapp2.2\MasterChef.Web.csproj.CopyComplete
+C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChef.Web\bin\Debug\netcoreapp2.2\MasterChefCore.dll
+C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChef.Web\bin\Debug\netcoreapp2.2\MasterChefCore.pdb
+C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChef.Web\obj\Debug\netcoreapp2.2\MasterChef.Web.csprojAssemblyReference.cache
+C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChef.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChef.Web\obj\Debug\netcoreapp2.2\Razor\Views\Receitas\Create.g.cshtml.cs
+C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChef.Web\obj\Debug\netcoreapp2.2\Razor\Views\Receitas\Delete.g.cshtml.cs
+C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChef.Web\obj\Debug\netcoreapp2.2\Razor\Views\Receitas\Details.g.cshtml.cs
+C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChef.Web\obj\Debug\netcoreapp2.2\Razor\Views\Receitas\Edit.g.cshtml.cs
+C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChef.Web\obj\Debug\netcoreapp2.2\Razor\Views\Receitas\Index.g.cshtml.cs

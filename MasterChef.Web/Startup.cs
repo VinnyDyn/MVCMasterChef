@@ -13,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using MasterChef.Web.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MasterChefCore.Contexts;
 
 namespace MasterChef.Web
 {
@@ -42,7 +43,7 @@ namespace MasterChef.Web
                 .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-
+            services.AddDbContext<MasterChefContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
