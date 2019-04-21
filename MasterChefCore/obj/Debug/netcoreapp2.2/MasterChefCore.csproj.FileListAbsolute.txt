@@ -1,8 +1,0 @@
-C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChefCore\bin\Debug\netcoreapp2.2\MasterChefCore.deps.json
-C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChefCore\bin\Debug\netcoreapp2.2\MasterChefCore.dll
-C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChefCore\bin\Debug\netcoreapp2.2\MasterChefCore.pdb
-C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChefCore\obj\Debug\netcoreapp2.2\MasterChefCore.csproj.CoreCompileInputs.cache
-C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChefCore\obj\Debug\netcoreapp2.2\MasterChefCore.AssemblyInfoInputs.cache
-C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChefCore\obj\Debug\netcoreapp2.2\MasterChefCore.AssemblyInfo.cs
-C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChefCore\obj\Debug\netcoreapp2.2\MasterChefCore.dll
-C:\Users\vinicius.basile\Desktop\Git\MVC Receitas\MasterChef\MasterChefCore\obj\Debug\netcoreapp2.2\MasterChefCore.pdb
