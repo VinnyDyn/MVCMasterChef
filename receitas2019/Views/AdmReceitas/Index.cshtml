@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Receita>
+
+@{
+    ViewData["Title"] = "Gerenciar Item";
+}
+
+<h1>Área de Gerenciamento</h1>
+
+<p>
+    <a asp-action="Create">Criar novo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Receita
+            </th>
+            <th>
+                Ingredientes
+            </th>
+            <th>
+                Modo de Preparo
+            </th>
+            <th>
+                Tempo
+            </th>
+            <th>
+                Categoria
+            </th>
+            <th>
+                Imagem
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                <textarea cols=50 id="ingredientes" rows="10" name="ingredientes" style="resize:none; border:hidden; background-color:transparent" disabled="disabled">@item.Ingredientes</textarea>
+            </td>
+            <td>
+                <textarea cols=50 id="mododepreparo" rows="10" name="mododepreparo" style="resize:none; border:hidden; background-color:transparent" disabled="disabled">@item.ModoDePreparo</textarea>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TempoDePreparo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categoria.Nome)
+            </td>
+            <td>
+                <img src="@Html.DisplayFor(modelItem => item.Imagem)" class="rounded" alt="" width="300" />
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

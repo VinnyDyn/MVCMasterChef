@@ -1,0 +1,44 @@
+﻿@model Receita
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Área de exclusão de Receita</h1>
+
+<div>
+    <h4>Receita</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Nome
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            Modo de preparo
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModoDePreparo)
+        </dd>
+        <dt class="col-sm-2">
+            Tempo de preparo
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TempoDePreparo)
+        </dd>
+        <dt class="col-sm-2">
+            Imagem
+        </dt>
+        <dd class="col-sm-10">
+            <img src="@Html.DisplayFor(model => model.Imagem)" class="rounded" alt="" width="300" />
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="APAGAR" class="btn btn-danger" /> |
+        <a asp-action="Index">Voltar para Área de Gerenciamento</a>
+    </form>
+</div>

@@ -1,0 +1,59 @@
+﻿@model Receita
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Área de criação de Receita</h1>
+
+<h4>Receita</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input required asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ingredientes" class="control-label">Ingredientes</label>
+                <textarea required placeholder='Digite os ingredientes necessarios' cols="200" rows="10" asp-for="Ingredientes" class="control-label"></textarea>
+                <span asp-validation-for="Ingredientes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModoDePreparo" class="control-label">Modo de Preparo</label>
+                <textarea required placeholder='Digite o passo a passo da receita' cols="200" rows="10" asp-for="ModoDePreparo" class="control-label"></textarea>
+                <span asp-validation-for="ModoDePreparo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TempoDePreparo" class="control-label">Tempo de Preparo</label>
+                <input required type="time" asp-for="TempoDePreparo" class="form-control" />
+                <span asp-validation-for="TempoDePreparo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Imagem" class="control-label">Link da Imagem</label>
+                <input required type="url" asp-for="Imagem" class="form-control" />
+                <span asp-validation-for="Imagem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoriaId" class="control-label">Categoria</label>
+                <select asp-for="CategoriaId" class="form-control" asp-items="ViewBag.CategoriaId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tag" class="control-label">Tags de busca</label>
+                <textarea required placeholder='Digite as tag para a busca... Exemplo #Chocolate #Bolo' cols="200" rows="10" asp-for="Tag" class="control-label"></textarea>
+                <span asp-validation-for="Tag" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Criar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar para Área de Gerenciamento</a>
+</div>
+
